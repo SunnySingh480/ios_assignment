@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0499BE7E2C8B781300FA22DE /* DesertRecipiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0499BE7D2C8B781300FA22DE /* DesertRecipiesApp.swift */; };
+		0499BE802C8B781300FA22DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0499BE7F2C8B781300FA22DE /* ContentView.swift */; };
+		0499BE822C8B781500FA22DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0499BE812C8B781500FA22DE /* Assets.xcassets */; };
+		0499BE852C8B781500FA22DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0499BE842C8B781500FA22DE /* Preview Assets.xcassets */; };
+		0499BE8F2C8B781500FA22DE /* DesertRecipiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0499BE8E2C8B781500FA22DE /* DesertRecipiesTests.swift */; };
+		0499BE992C8B781500FA22DE /* DesertRecipiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0499BE982C8B781500FA22DE /* DesertRecipiesUITests.swift */; };
+		0499BE9B2C8B781500FA22DE /* DesertRecipiesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0499BE9A2C8B781500FA22DE /* DesertRecipiesUITestsLaunchTests.swift */; };
+		0499BEA82C8B7FE200FA22DE /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0499BEA72C8B7FE200FA22DE /* Meal.swift */; };
+		0499BEAA2C8B806600FA22DE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0499BEA92C8B806600FA22DE /* NetworkManager.swift */; };
+		0499BEAC2C8B80FF00FA22DE /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0499BEAB2C8B80FF00FA22DE /* MealDetailView.swift */; };
+		0499BEAE2C8B858B00FA22DE /* MealDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0499BEAD2C8B858B00FA22DE /* MealDetailViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0499BE8B2C8B781500FA22DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0499BE722C8B781200FA22DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0499BE792C8B781300FA22DE;
+			remoteInfo = DesertRecipies;
+		};
+		0499BE952C8B781500FA22DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0499BE722C8B781200FA22DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0499BE792C8B781300FA22DE;
+			remoteInfo = DesertRecipies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0499BE7A2C8B781300FA22DE /* DesertRecipies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesertRecipies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0499BE7D2C8B781300FA22DE /* DesertRecipiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesertRecipiesApp.swift; sourceTree = "<group>"; };
+		0499BE7F2C8B781300FA22DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0499BE812C8B781500FA22DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0499BE842C8B781500FA22DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0499BE8A2C8B781500FA22DE /* DesertRecipiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesertRecipiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0499BE8E2C8B781500FA22DE /* DesertRecipiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesertRecipiesTests.swift; sourceTree = "<group>"; };
+		0499BE942C8B781500FA22DE /* DesertRecipiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesertRecipiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0499BE982C8B781500FA22DE /* DesertRecipiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesertRecipiesUITests.swift; sourceTree = "<group>"; };
+		0499BE9A2C8B781500FA22DE /* DesertRecipiesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesertRecipiesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0499BEA72C8B7FE200FA22DE /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		0499BEA92C8B806600FA22DE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		0499BEAB2C8B80FF00FA22DE /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
+		0499BEAD2C8B858B00FA22DE /* MealDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0499BE772C8B781300FA22DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0499BE872C8B781500FA22DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0499BE912C8B781500FA22DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0499BE712C8B781200FA22DE = {
+			isa = PBXGroup;
+			children = (
+				0499BE7C2C8B781300FA22DE /* DesertRecipies */,
+				0499BE8D2C8B781500FA22DE /* DesertRecipiesTests */,
+				0499BE972C8B781500FA22DE /* DesertRecipiesUITests */,
+				0499BE7B2C8B781300FA22DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0499BE7B2C8B781300FA22DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0499BE7A2C8B781300FA22DE /* DesertRecipies.app */,
+				0499BE8A2C8B781500FA22DE /* DesertRecipiesTests.xctest */,
+				0499BE942C8B781500FA22DE /* DesertRecipiesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0499BE7C2C8B781300FA22DE /* DesertRecipies */ = {
+			isa = PBXGroup;
+			children = (
+				0499BE7D2C8B781300FA22DE /* DesertRecipiesApp.swift */,
+				0499BE7F2C8B781300FA22DE /* ContentView.swift */,
+				0499BE812C8B781500FA22DE /* Assets.xcassets */,
+				0499BE832C8B781500FA22DE /* Preview Content */,
+				0499BEA72C8B7FE200FA22DE /* Meal.swift */,
+				0499BEA92C8B806600FA22DE /* NetworkManager.swift */,
+				0499BEAB2C8B80FF00FA22DE /* MealDetailView.swift */,
+				0499BEAD2C8B858B00FA22DE /* MealDetailViewModel.swift */,
+			);
+			path = DesertRecipies;
+			sourceTree = "<group>";
+		};
+		0499BE832C8B781500FA22DE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0499BE842C8B781500FA22DE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0499BE8D2C8B781500FA22DE /* DesertRecipiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				0499BE8E2C8B781500FA22DE /* DesertRecipiesTests.swift */,
+			);
+			path = DesertRecipiesTests;
+			sourceTree = "<group>";
+		};
+		0499BE972C8B781500FA22DE /* DesertRecipiesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0499BE982C8B781500FA22DE /* DesertRecipiesUITests.swift */,
+				0499BE9A2C8B781500FA22DE /* DesertRecipiesUITestsLaunchTests.swift */,
+			);
+			path = DesertRecipiesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0499BE792C8B781300FA22DE /* DesertRecipies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0499BE9E2C8B781500FA22DE /* Build configuration list for PBXNativeTarget "DesertRecipies" */;
+			buildPhases = (
+				0499BE762C8B781300FA22DE /* Sources */,
+				0499BE772C8B781300FA22DE /* Frameworks */,
+				0499BE782C8B781300FA22DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesertRecipies;
+			productName = DesertRecipies;
+			productReference = 0499BE7A2C8B781300FA22DE /* DesertRecipies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0499BE892C8B781500FA22DE /* DesertRecipiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0499BEA12C8B781500FA22DE /* Build configuration list for PBXNativeTarget "DesertRecipiesTests" */;
+			buildPhases = (
+				0499BE862C8B781500FA22DE /* Sources */,
+				0499BE872C8B781500FA22DE /* Frameworks */,
+				0499BE882C8B781500FA22DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0499BE8C2C8B781500FA22DE /* PBXTargetDependency */,
+			);
+			name = DesertRecipiesTests;
+			productName = DesertRecipiesTests;
+			productReference = 0499BE8A2C8B781500FA22DE /* DesertRecipiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0499BE932C8B781500FA22DE /* DesertRecipiesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0499BEA42C8B781500FA22DE /* Build configuration list for PBXNativeTarget "DesertRecipiesUITests" */;
+			buildPhases = (
+				0499BE902C8B781500FA22DE /* Sources */,
+				0499BE912C8B781500FA22DE /* Frameworks */,
+				0499BE922C8B781500FA22DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0499BE962C8B781500FA22DE /* PBXTargetDependency */,
+			);
+			name = DesertRecipiesUITests;
+			productName = DesertRecipiesUITests;
+			productReference = 0499BE942C8B781500FA22DE /* DesertRecipiesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0499BE722C8B781200FA22DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					0499BE792C8B781300FA22DE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					0499BE892C8B781500FA22DE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0499BE792C8B781300FA22DE;
+					};
+					0499BE932C8B781500FA22DE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0499BE792C8B781300FA22DE;
+					};
+				};
+			};
+			buildConfigurationList = 0499BE752C8B781200FA22DE /* Build configuration list for PBXProject "DesertRecipies" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0499BE712C8B781200FA22DE;
+			productRefGroup = 0499BE7B2C8B781300FA22DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0499BE792C8B781300FA22DE /* DesertRecipies */,
+				0499BE892C8B781500FA22DE /* DesertRecipiesTests */,
+				0499BE932C8B781500FA22DE /* DesertRecipiesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0499BE782C8B781300FA22DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0499BE852C8B781500FA22DE /* Preview Assets.xcassets in Resources */,
+				0499BE822C8B781500FA22DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0499BE882C8B781500FA22DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0499BE922C8B781500FA22DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0499BE762C8B781300FA22DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0499BEAA2C8B806600FA22DE /* NetworkManager.swift in Sources */,
+				0499BE802C8B781300FA22DE /* ContentView.swift in Sources */,
+				0499BEA82C8B7FE200FA22DE /* Meal.swift in Sources */,
+				0499BEAC2C8B80FF00FA22DE /* MealDetailView.swift in Sources */,
+				0499BEAE2C8B858B00FA22DE /* MealDetailViewModel.swift in Sources */,
+				0499BE7E2C8B781300FA22DE /* DesertRecipiesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0499BE862C8B781500FA22DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0499BE8F2C8B781500FA22DE /* DesertRecipiesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0499BE902C8B781500FA22DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0499BE992C8B781500FA22DE /* DesertRecipiesUITests.swift in Sources */,
+				0499BE9B2C8B781500FA22DE /* DesertRecipiesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0499BE8C2C8B781500FA22DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0499BE792C8B781300FA22DE /* DesertRecipies */;
+			targetProxy = 0499BE8B2C8B781500FA22DE /* PBXContainerItemProxy */;
+		};
+		0499BE962C8B781500FA22DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0499BE792C8B781300FA22DE /* DesertRecipies */;
+			targetProxy = 0499BE952C8B781500FA22DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0499BE9C2C8B781500FA22DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0499BE9D2C8B781500FA22DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0499BE9F2C8B781500FA22DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DesertRecipies/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdullah.DesertRecipies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0499BEA02C8B781500FA22DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DesertRecipies/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdullah.DesertRecipies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0499BEA22C8B781500FA22DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdullah.DesertRecipiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesertRecipies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DesertRecipies";
+			};
+			name = Debug;
+		};
+		0499BEA32C8B781500FA22DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdullah.DesertRecipiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesertRecipies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DesertRecipies";
+			};
+			name = Release;
+		};
+		0499BEA52C8B781500FA22DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdullah.DesertRecipiesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DesertRecipies;
+			};
+			name = Debug;
+		};
+		0499BEA62C8B781500FA22DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdullah.DesertRecipiesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DesertRecipies;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0499BE752C8B781200FA22DE /* Build configuration list for PBXProject "DesertRecipies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0499BE9C2C8B781500FA22DE /* Debug */,
+				0499BE9D2C8B781500FA22DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0499BE9E2C8B781500FA22DE /* Build configuration list for PBXNativeTarget "DesertRecipies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0499BE9F2C8B781500FA22DE /* Debug */,
+				0499BEA02C8B781500FA22DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0499BEA12C8B781500FA22DE /* Build configuration list for PBXNativeTarget "DesertRecipiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0499BEA22C8B781500FA22DE /* Debug */,
+				0499BEA32C8B781500FA22DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0499BEA42C8B781500FA22DE /* Build configuration list for PBXNativeTarget "DesertRecipiesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0499BEA52C8B781500FA22DE /* Debug */,
+				0499BEA62C8B781500FA22DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0499BE722C8B781200FA22DE /* Project object */;
+}
